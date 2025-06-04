@@ -1,6 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas de Acción</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e50914;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .intro {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .movie {
+            background-color: #222;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .movie img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #000;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
 <body>
-  <h1>Hello World!</h1>
+
+    <header>
+        <h1>🎬 Películas de Acción</h1>
+    </header>
+
+    <div class="intro">
+        <p>¡Explora algunas de las mejores películas de acción llenas de adrenalina, explosiones y héroes legendarios!</p>
+    </div>
+
+    <section class="gallery">
+        <div class="movie">
+            <img src="gladiator.jpg" alt="Gladiator">
+            <h3>Gladiator</h3>
+            <p>Commodus takes over power and demotes Maximus, one of the preferred generals of his father, Emperor Marcus Aurelius. As a result, Maximus is relegated to fighting till death as a gladiator.</p>
+        </div>
+        <div class="movie">
+            <img src="avengers.jpg" alt="Avengers">
+            <h3>Avengers:Endgame</h3>
+            <p>After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.</p>
+        </div>
+        <div class="movie">
+            <img src="KOA.jpg" alt="KOA">
+            <h3>Kingdom of the Planet of the Apes</h3>
+            <p>Many years after the reign of Caesar, a young ape goes on a journey that will lead him to question everything he's been taught about the past and make choices that will define a future for apes and humans alike.</p>
+        </div>
+        <div class="movie">
+            <img src="TheBatman.jpg" alt="Batman">
+            <h3>The Batman</h3>
+            <p>Batman is called to intervene when the mayor of Gotham City is murdered. Soon, his investigation leads him to uncover a web of corruption, linked to his own dark past.</p>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Películas de Acción | Contáctanos: info@accionfilms.com
+    </footer>
+
 </body>
 </html>
